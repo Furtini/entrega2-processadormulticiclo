@@ -291,8 +291,4 @@ begin
 	end
 end
 
-//10220002
-//(opcode == 6'b000011) ? jal_Aux:(
-//(opcode == 6'b000011)? 5'b11111 :
-
 endmodule

@@ -22,7 +22,6 @@ DATA_RADIX=HEX;
 
 CONTENT BEGIN
 	00000  :   00211020;
-	00001  :   00201822;
-	00002  :   ffffffff;
-	[00003..0FFFF]  :   00000000;
+	00001  :   ffffffff;
+	[00002..0FFFF]  :   00000000;
 END;

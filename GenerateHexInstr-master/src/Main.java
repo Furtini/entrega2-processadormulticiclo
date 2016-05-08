@@ -8,7 +8,7 @@ import java.util.Scanner;
 // Universidade Federal de Minas Gerais
 // Gerador arquivo .mif com instruções em hexadecima de instruções MIPs para processador multiciclo.
 // Arquivo .mif utilizado pela FPGA para carregar dados na memoria de instruções e de dados.
-// Created By Filipe Marcelino
+// Created By Felipe Marcelino
 // Email.
 public class Main {
 

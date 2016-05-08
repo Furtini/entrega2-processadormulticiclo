@@ -17,16 +17,8 @@ module regfile(
 integer i =0;
 reg [31:0] file [31:0];
 
-
-
-//Complete com a entrega 1 do trabalho prático
-//Renomeados em relação a entrega 1 para adequação
-
-
-
-        assign out1 = file[reg1];        
-        assign out2 = file[reg2]; 
-    
+	assign out1 = file[reg1];        
+    assign out2 = file[reg2]; 
 
     always @(posedge rst or posedge wr_enable) begin
 		if(rst) begin
@@ -42,9 +34,6 @@ reg [31:0] file [31:0];
 			end
 		end
 	 end
-	
-            
-
 
 //O código a seguir permite a leitura de um terceiro registrado para que seja visualizado nos displays de 7 segmentos
 always@(regDisplay)

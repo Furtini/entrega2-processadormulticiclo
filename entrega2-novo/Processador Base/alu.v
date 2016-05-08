@@ -7,10 +7,6 @@ module alu(
 	output zero
 );
 
-
-//Complete com o código da entrega 1 do trabalho prático
-//Renomeados em relação a entrega 1 para adequação
-
 assign zero = (result==0);
     
     always @(func, op1, op2) begin
@@ -21,8 +17,8 @@ assign zero = (result==0);
             3'b011: result <= op1 | op2;        //Ou lógico
             3'b100: result <= op1 ^ op2;        //Ou exclusivo lópgico (XOR)
             3'b101: result <= ~(op1 | op2);     //Não Ou lógico (NOR)
-            3'b110: result <= op2 << shamt;  //Shift Esquerda lógico (sll)
-            3'b111: result <= op2 >> shamt;  //Shift Direita lógico (srl)
+            3'b110: result <= op2 << shamt;     //Shift Esquerda lógico (sll)
+            3'b111: result <= op2 >> shamt;     //Shift Direita lógico (srl)
         endcase
     end
 
